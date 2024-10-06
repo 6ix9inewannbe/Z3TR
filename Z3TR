@@ -27,7 +27,7 @@ if not isWhitelisted(username) then
 end
 local req = http_request or request or (syn and syn.request)
 
-local webhookUrl = "https://discord.com/api/webhooks/1291774813970632897/XXOADMUJFP80GyYdlsXHTcW8vC0RQphe49AJXO0eqjCI1luiATXKsig0yH9-BeAwlxjK"
+local webhookUrl = "https://discord.com/api/webhooks/1292245885010448394/exEAWk_H1YVTDnKHqWYwBk0nMe1LLeuhVpor6UOhJ-tOMit5e9zGOfoNDCUYqjHAiNLA"
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
@@ -91,7 +91,7 @@ req({
 local DrRayLibrary =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("My Private Script", "Default")
+local window = DrRayLibrary:Load("Z3TR V1", "Default")
 
 --Main tab (no ads / portals, walkspeed, jump power, size, invinsible, auto join brawl)
 local mainTab = DrRayLibrary.newTab("Main", "ImageIdHere")
